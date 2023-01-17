@@ -13,10 +13,10 @@ class Human():
         return f'{self.name} {self.second_name}, {self.gender};'
 
     def eat(self):
-        self.energy = 5
+        self.energy = +5
 
     def sleep(self):
-        self.energy = 10
+        self.energy = +10
 
     def talk(self):
         self.energy = -5
